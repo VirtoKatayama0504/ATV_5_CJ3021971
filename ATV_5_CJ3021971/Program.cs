@@ -64,21 +64,56 @@ namespace ATV_5_CJ3021971
             {
                 Console.WriteLine("oPÇÃO INVALIDA");
             }
+            */
 
+            Console.WriteLine("Exercicio 4");
+            int rr; int ww = 0;
+            while (ww < 200)
+            {
+                Console.WriteLine("Digite uma sequnecia de numeros inteiros ");
+                rr = int.Parse(Console.ReadLine());
+                if (rr > 0)
+                {
+                    ww += rr;
+                }
+
+                Console.WriteLine(ww);
+            }
+                
             Console.WriteLine("Exercicio 5");
             int aq, divx;
             Console.WriteLine("Digite um numero");
             aq = int.Parse(Console.ReadLine());
             for (divx = 1; divx <= aq; divx++)
             {
-                if (aq %divx == 0)
+                if (aq % divx == 0)
                 {
                     Console.WriteLine(divx);
                 }
-            }
-            */
 
+                
+            }
+            
             Console.WriteLine("Exercicio 6");
+            int mm, mmx = 0;
+
+                 
+                
+                 
+
+           
+            
+
+              
+            
+
+
+
+
+            
+            
+
+            
 
 
             
